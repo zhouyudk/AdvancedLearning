@@ -61,5 +61,8 @@
         <page name='77组合##'/>
         <page name='80 删除排序数组中的重复项 II##'/>
         <page name='81. 搜索旋转排序数组 II##'/>
+        <page name='82. 删除排序链表中的重复元素 II##'/>
+        <page name='83. 删除排序链表中的重复元素#'/>
+        <page name='85. 最大矩形###'/>
     </pages>
 </playground>
