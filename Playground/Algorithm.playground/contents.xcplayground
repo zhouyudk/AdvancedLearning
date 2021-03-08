@@ -43,6 +43,7 @@
         <page name='LeetCode 32最长有效括号###'/>
         <page name='LeetCode 33.搜索旋转排序数组##'/>
         <page name='LeetCode 36. 有效的数独##'/>
+        <page name='37. 解数独###'/>
         <page name='LeetCode 39 组合总和'/>
         <page name='LeetCode 46 全排列##'/>
         <page name='LeetCode 50 pow##'/>
@@ -65,5 +66,6 @@
         <page name='83. 删除排序链表中的重复元素#'/>
         <page name='85. 最大矩形###'/>
         <page name='86. 分隔链表##'/>
+        <page name='89. 格雷编码##'/>
     </pages>
 </playground>
