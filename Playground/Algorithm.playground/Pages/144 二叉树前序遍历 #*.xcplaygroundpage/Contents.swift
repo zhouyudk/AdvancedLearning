@@ -63,6 +63,7 @@ func initTree(_ count: Int) -> TreeNode? {
 }
 
 class Solution {
+    //迭代法
     func preorderTraversal(_ root: TreeNode?) -> [Int] {
         guard root != nil else { return [] }
         var result = [Int]()
@@ -80,6 +81,12 @@ class Solution {
             }
         }
         return result
+    }
+
+    // 递归
+    func preorderTraversal1(_ root: TreeNode?) -> [Int] {
+        guard root != nil else { return [] }
+        return [root!.val] + preorderTraversal1(root?.left) + preorderTraversal1(root?.right)
     }
 }
 
