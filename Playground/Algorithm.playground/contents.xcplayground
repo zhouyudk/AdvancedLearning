@@ -3,7 +3,7 @@
     <pages>
         <page name='LeetCode 1'/>
         <page name='LeetCode 2'/>
-        <page name='LeetCode 3'/>
+        <page name='3. 无重复字符的最长子串-hash##*'/>
         <page name='LeetCode 4'/>
         <page name='LeetCode 5'/>
         <page name='LeetCode 6'/>
@@ -32,7 +32,6 @@
         <page name='LeetCode 29 整数除法'/>
         <page name='LeetCode 188 数组旋转#'/>
         <page name='LeetCode 88合并连个有序数组#'/>
-        <page name='LeetCode 242 有效的字母异位词#'/>
         <page name='LeetCode 1021删除最外层的括号#'/>
         <page name='LeetCode 84柱状图中最大的矩形###'/>
         <page name='LeetCode 44接雨水###'/>
@@ -69,9 +68,12 @@
         <page name='104.二叉树的最大深度 #*'/>
         <page name='111. 二叉树的最小深度#*'/>
         <page name='144 二叉树前序遍历 #*'/>
+        <page name='242 有效的字母异位词-hash#*'/>
         <page name='257. 二叉树的所有路径#*'/>
         <page name='783. 二叉搜索树节点最小距离#'/>
         <page name='236. 二叉树的最近公共祖先##*'/>
+        <page name='692. 前K个高频单词-hash##*'/>
+        <page name='726. 原子的数量-hash###*'/>
         <page name='938. 二叉搜索树的范围和#*'/>
     </pages>
 </playground>

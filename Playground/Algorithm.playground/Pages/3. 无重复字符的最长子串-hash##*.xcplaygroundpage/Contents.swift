@@ -25,7 +25,9 @@ import Foundation
  以字符为key index为value创建hash，记录minIndex和maxindex
  每次循环 判断hash中是否已经存在该key 如果存在并且index大于minIndex则出现重复字符，更新length和minIndex
  */
+//https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
+// O(n) 使用hash表 以每个字符为key index为value，使用minIndex为游标，如果当前字符与之前的x字符相同 则minIndex修改为x字符的index+1
 func lengthOfLongestSubstring(_ s: String) -> Int {
     var minIndex = 0
     var lenght = 0
