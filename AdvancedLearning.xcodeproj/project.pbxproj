@@ -13,6 +13,7 @@
 		B55F8FA525D1384D00AC010B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55F8FA325D1384C00AC010B /* Main.storyboard */; };
 		B55F8FA725D1384E00AC010B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55F8FA625D1384E00AC010B /* Assets.xcassets */; };
 		B55F8FAA25D1384E00AC010B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55F8FA825D1384E00AC010B /* LaunchScreen.storyboard */; };
+		B5BAE66F260DBDB200B9B9D2 /* ActionTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAE66D260DBDB200B9B9D2 /* ActionTestViewController.swift */; };
 		CED733AFBD8D3EF7EDE183E3 /* Pods_AdvancedLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4F2561D2073534919C22C5 /* Pods_AdvancedLearning.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,9 @@
 		B55F8FB325D138AA00AC010B /* SwiftTips.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTips.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B55F8FB625D1394400AC010B /* Algorithm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Algorithm.playground; sourceTree = "<group>"; };
 		B55F8FB925D139C300AC010B /* Multithread.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Multithread.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B5BAE66C260D91E100B9B9D2 /* 事件.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "事件.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B5BAE66D260DBDB200B9B9D2 /* ActionTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTestViewController.swift; sourceTree = "<group>"; };
+		B5F70A8F260C36DB00EB078B /* CoreAnimation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreAnimation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C8085FE3598A0F6B34947F98 /* Pods-AdvancedLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedLearning.debug.xcconfig"; path = "Target Support Files/Pods-AdvancedLearning/Pods-AdvancedLearning.debug.xcconfig"; sourceTree = "<group>"; };
 		F8A4115665F3DBEAE82A911B /* Pods-AdvancedLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedLearning.release.xcconfig"; path = "Target Support Files/Pods-AdvancedLearning/Pods-AdvancedLearning.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +91,7 @@
 				B55F8F9D25D1384C00AC010B /* AppDelegate.swift */,
 				B55F8F9F25D1384C00AC010B /* SceneDelegate.swift */,
 				B55F8FA125D1384C00AC010B /* ViewController.swift */,
+				B5BAE66D260DBDB200B9B9D2 /* ActionTestViewController.swift */,
 				B55F8FA325D1384C00AC010B /* Main.storyboard */,
 				B55F8FA625D1384E00AC010B /* Assets.xcassets */,
 				B55F8FA825D1384E00AC010B /* LaunchScreen.storyboard */,
@@ -98,6 +103,8 @@
 		B55F8FB225D1386500AC010B /* Playground */ = {
 			isa = PBXGroup;
 			children = (
+				B5BAE66C260D91E100B9B9D2 /* 事件.playground */,
+				B5F70A8F260C36DB00EB078B /* CoreAnimation.playground */,
 				B55F8FB925D139C300AC010B /* Multithread.playground */,
 				B55F8FB625D1394400AC010B /* Algorithm.playground */,
 				B55F8FB325D138AA00AC010B /* SwiftTips.playground */,
@@ -221,6 +228,7 @@
 			files = (
 				B55F8FA225D1384C00AC010B /* ViewController.swift in Sources */,
 				B55F8F9E25D1384C00AC010B /* AppDelegate.swift in Sources */,
+				B5BAE66F260DBDB200B9B9D2 /* ActionTestViewController.swift in Sources */,
 				B55F8FA025D1384C00AC010B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6RF4D9458;
 				INFOPLIST_FILE = AdvancedLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -392,6 +401,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6RF4D9458;
 				INFOPLIST_FILE = AdvancedLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
