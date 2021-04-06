@@ -30,7 +30,6 @@
 		B55F8FB325D138AA00AC010B /* SwiftTips.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftTips.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B55F8FB625D1394400AC010B /* Algorithm.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Algorithm.playground; sourceTree = "<group>"; };
 		B55F8FB925D139C300AC010B /* Multithread.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Multithread.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		B5BAE66C260D91E100B9B9D2 /* 事件.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "事件.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B5BAE66D260DBDB200B9B9D2 /* ActionTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTestViewController.swift; sourceTree = "<group>"; };
 		B5F70A8F260C36DB00EB078B /* CoreAnimation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = CoreAnimation.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		C8085FE3598A0F6B34947F98 /* Pods-AdvancedLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdvancedLearning.debug.xcconfig"; path = "Target Support Files/Pods-AdvancedLearning/Pods-AdvancedLearning.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +102,6 @@
 		B55F8FB225D1386500AC010B /* Playground */ = {
 			isa = PBXGroup;
 			children = (
-				B5BAE66C260D91E100B9B9D2 /* 事件.playground */,
 				B5F70A8F260C36DB00EB078B /* CoreAnimation.playground */,
 				B55F8FB925D139C300AC010B /* Multithread.playground */,
 				B55F8FB625D1394400AC010B /* Algorithm.playground */,
